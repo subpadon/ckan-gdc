@@ -1,4 +1,4 @@
-# วิธีการติดตั้ง CKAN 2.9 จาก Source บน Ubuntu 18.04 และ 20.04
+# วิธีการติดตั้ง CKAN 2.9 จาก Source บน Ubuntu 18.04
 
 ### 1. Update Package ของ Ubuntu:
 ```sh
