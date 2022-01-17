@@ -84,7 +84,7 @@ sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 1
 
 sudo update-alternatives --config python
 
-curl https://bootstrap.pypa.io/2.7/get-pip.py --output get-pip.py
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
 
 sudo python2 get-pip.py
 
@@ -132,7 +132,7 @@ pip install --upgrade pip
 
 pip install setuptools==44.1.0
 
-pip install -e 'git+https://github.com/ckan/ckan.git@ckan-2.9.1#egg=ckan[requirements-py2]'
+pip install -e 'git+https://github.com/ckan/ckan.git@ckan-2.9.2#egg=ckan[requirements-py2]'
 
 deactivate
 ```
