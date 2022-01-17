@@ -74,7 +74,7 @@ sudo service tomcat9 restart
 ### 4. ติดตั้ง Package ของ Ubuntu ที่ CKAN ต้องการ:
 - สำหรับ Ubuntu 20.04:
 ```sh
-sudo apt-get install python-dev libpq-dev redis-server git
+sudo apt-get install python-dev libpq-dev redis-server git build-essential
 
 sudo add-apt-repository universe
 
