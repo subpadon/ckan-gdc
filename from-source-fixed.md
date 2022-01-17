@@ -61,12 +61,13 @@ sudo service tomcat9 restart
 5.  จากนั้นไปที่ ```http://<ip address>:8983/solr```หากมี Internal Server Error ดังนี้
 
 ```sh
-sudo apt-get install openjdk-11-jdk solr-tomcat
+java.io.IOException: Cannot create directory: /var/lib/solr/data/index
 ```
 ให้ทำการแก้ไขโดยคำสั่งดังนี้
 ```sh
 sudo mv /etc/systemd/system/tomcat9.d /etc/systemd/system/tomcat9.service.d
 sudo systemctl daemon-reload
+sudo service tomcat9 restart
 ```
 
 
